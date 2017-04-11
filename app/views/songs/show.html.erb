@@ -1,0 +1,10 @@
+<h1>My Song</h1>
+<br>
+<h1>My song name: <%=@song.name%>
+<br>
+Song Artist: <%= link_to @song.artist.name, @song.artist %>
+<br>
+Song Genre: <%= link_to @song.genre.name, @song.genre %>
+</h1>
+
+My edit: <%= params.inspect %>
